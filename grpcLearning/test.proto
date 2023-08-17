@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace  = "TestGrpc.Imples";
+package TestGrpc123;
+
+service TestService {
+    rpc GetService (GetRequest) returns (GetResponse);
+	rpc SetService (Setequest) returns (SetResponse);
+}
+
+message GetRequest {
+    string name=1;
+}
+
+message GetResponse {
+    string name=1;
+    string IP=2;
+}
+
+message Setequest {
+    string name=1;
+    string IP=2;
+}
+
+message SetResponse {
+    string name=1;
+}

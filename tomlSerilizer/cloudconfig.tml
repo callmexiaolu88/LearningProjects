@@ -1,0 +1,33 @@
+
+[AWS]
+AccessKey = "123"
+SecretKey = "234"
+
+[AWS.S3]
+EndPoint = "eu-central-1"
+BucketName = "pp002"
+
+[[Configs]]
+AccessKey = "123"
+SecretKey = "234"
+
+[Configs.S3]
+EndPoint = "eu-central-1"
+BucketName = "pp002"
+
+[[Configs]]
+AccessKey = "456"
+SecretKey = "789"
+
+[Configs.S3]
+EndPoint = "us-east-1"
+BucketName = "pp002"
+
+[[Configs]]
+AccessKey = "AKIAXMOEKHAJ433FTIPK"
+SecretKey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcHBrZXkiOiJNVFc2L2NlVmIrVEIvUC9ZT3F5R3V0NXdHUlpxenM2Vzdwd1ZlMmxxIiwidGltZXN0YW1wIjoxNjM1ODQ3NzY2MjQ5fQ.j3vt-XD0V7UrjWZUhSlshvVHZLczx_L107B4t8iLXLI"
+
+[Configs.S3]
+Key = "us-east-1-pp-va-001"
+EndPoint = "us-east-1"
+BucketName = "pp-va-001"

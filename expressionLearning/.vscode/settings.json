@@ -1,0 +1,4 @@
+{
+    "omnisharp.enableRoslynAnalyzers": false,
+    "dotnet.defaultSolution": "expressionLearning.sln"
+}

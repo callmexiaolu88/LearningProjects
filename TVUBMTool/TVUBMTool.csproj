@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <Reference Include="TVU.SharedLib.BMDDeckLink">
+      <HintPath>libs\TVU.SharedLib.BMDDeckLink.dll</HintPath>
+    </Reference>
+    <Reference Include="TVU.SharedLib.LibBLOB">
+      <HintPath>libs\TVU.SharedLib.LibBLOB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="NLog" Version="4.5.11" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="NLog.config">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="start.sh">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
